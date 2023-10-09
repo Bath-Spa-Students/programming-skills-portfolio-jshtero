@@ -1,2 +1,2 @@
-age = input ("Enter name:")
-print (age)
+import time
+print (time.ctime())
