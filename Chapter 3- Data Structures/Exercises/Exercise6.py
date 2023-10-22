@@ -1,4 +1,4 @@
-deadpeople = ["Elvis Presley", "Michael Jackson", "Kobe Bryant"]
+deadpeople = ["Elvis Presley", "Michael Jackson", "Kobe Bryant", "Bruce Lee"]
 for peoplewhoaredead in deadpeople:
     print("I would like formally invite you, " + peoplewhoaredead + " to an extravagant dinner.")
 deadpeople = ["Marilyn Monroe", "Michael Jackson", "Kobe Bryant", "Bruce Lee"]
@@ -10,3 +10,7 @@ peoplewhoaredead = deadpeople.pop(1)
 print (deadpeople)
 for peoplewhoaredead in deadpeople:
     print ("The two of you, " + peoplewhoaredead + " are still formally invited to dinner.")
+print (deadpeople)
+if len(deadpeople) >= 2:
+    del deadpeople[-2:]
+print (deadpeople)
