@@ -1,3 +1,4 @@
+#Stores keys and values in a dictionary named glossary 
 glossary = {"Variable": "In programming a variable is a memory used to allocate and store a value whether it is a number word or letter.",
     "Input": "In programming input is used to receive input from the user such as age.",
     "Print": "In programming the function print is used to print out a statement and shows its output.",
@@ -8,5 +9,6 @@ glossary = {"Variable": "In programming a variable is a memory used to allocate 
     "Integers": "Integers in python are variables of whole numbers the key function is int.",
     "Float": "Float is used to represent decimal numbers like 5.2.",
     "String": "String is used to represent a set of characters.",}
+#Uses for loop to print each key and value as a neatly prepared presentation of the keys and values 
 for word, meaning in glossary.items():
     print("\n" + word.title() + ": " + meaning)
