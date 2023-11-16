@@ -1,4 +1,6 @@
+# Creates a list storing the names of places in the variable called places
 places = ["New York", "Paris", "Rome", "Maldives", "Venice"]
+# Uses different types of functions to print the string in different orders such as sorted and reversed
 print (places)
 print(sorted(places))
 print (places)
