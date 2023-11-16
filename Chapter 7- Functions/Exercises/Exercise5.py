@@ -1,5 +1,6 @@
-#In this statement I def to define my function and add two arguments one with the variable nameofcity and one variable called country with the default value "Italy".
+# Defining my function using two arguments one with no default value and one with a default value.
 def describe_city(nameofcity, country = 'Italy'):
+# Here I use ".title()" on the first part it receives any value given to it and the second ".title()" prints the string assigned to the variable "country".
     countryandcity = nameofcity.title() + " is located in " + country.title()
     print (countryandcity)
 
