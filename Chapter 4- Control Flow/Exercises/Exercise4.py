@@ -1,5 +1,6 @@
+# Creates a variable called age to receive integer input from the user
 age = int(input("Enter your age: "))
-
+# Uses comparison operators to print different messages depending on the input from the user
 if int(age) < 2:
     print ("You are a baby.")
 elif int(age) < 4:
